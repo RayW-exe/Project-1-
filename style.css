@@ -1,0 +1,68 @@
+body{
+    background-color: #998c8c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.start {
+    background-image: url("real-estate-Home1.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0);
+    max-width: 1700px;
+    text-align: center ;
+}
+
+.start p {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: #333;
+    width: 210px;
+    height: 900px;
+    border-radius: 15px;
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0);
+}
+
+.navbar a {
+    display: block;
+    color: lightblue;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.starttitle {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    padding-bottom: 400px;
+}
+
+.para {
+    background-color: rgb(116, 118, 119, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.para:hover{
+    background-color: rgb(116, 118, 119, 1);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    color: white;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
